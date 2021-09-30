@@ -1,0 +1,13 @@
+.section-one {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 105px;
+    .section-one-text {
+        width: 518px;
+        height: 331px;
+        h1 {
+            margin-top: 120px;
+            @include tipo-1(40);
+        }
+    }  
+}

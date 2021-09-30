@@ -1,0 +1,44 @@
+/*
+header {
+    background-color: $bg-light;
+    filter: drop-shadow(0px 4px 4px $bg-dark);
+    .header {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 36px;  
+        .bg-logo { 
+            text-align: center;
+            background: red;
+            span{
+                font-family: 'Poppins', sans-serif;
+                font-size: 30px;
+                font-weight: bold;
+                text-transform: uppercase;
+                line-height: 28px;
+                padding-left: 10px;
+                filter: drop-shadow(0px 4px 4px $bg-dark);
+            }
+        }
+        .nav {
+            ul {
+                
+                align-items: center;
+                text-decoration: none;
+                li {
+                    padding: 15px;
+                    @include tipo-1(16);
+                    .active {
+                        @include active;
+                    }
+                    .primary-button {
+                        text-decoration: none;
+                        @include primary-button;
+                    }
+                }
+            }
+        }
+    }
+}
+*/
+
+

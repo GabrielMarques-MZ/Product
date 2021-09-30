@@ -1,0 +1,24 @@
+@mixin active {
+    font-weight: bold;
+}
+
+@mixin tipo-1($size) {
+    font-family: $font-1;
+    @if $size == 16 {
+      font-size: 16px;
+      line-height: 28px;
+      font-weight: normal;
+    }
+    @else if $size == 40 {
+        font-size: 40px;
+        line-height: 60px;
+        font-weight: bold;
+    }
+}
+
+@mixin primary-button {
+    background: $primary-color;
+    color: $color-2;
+    border-radius: 0.5em;
+    text-decoration: none;
+}
