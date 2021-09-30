@@ -41,4 +41,45 @@ header {
 }
 */
 
-
+header {
+    background-color: $bg-light;
+    filter: drop-shadow(0px 4px 4px $bg-dark);
+    .header {
+        display: flex;
+        justify-content: space-between;
+        padding: 25px 0;
+        align-items: center;
+        .bg-logo {
+            display: flex;
+            align-items: center;
+            span {
+                @include tipo-1(30);
+            }
+        }
+        .nav {   
+            ul {
+                display: flex;
+                li {
+                    padding-left: 15px;
+                    align-items: center;
+                    @include tipo-1(16);
+                    a {
+                        text-decoration: none;
+                        color: $bg-dark;
+                    }
+                    .active {
+                        @include active;
+                    }
+                    .primary-button {
+                        text-decoration: none;
+                        @include primary-button;
+                    }
+                    .second-button {
+                        text-decoration: none;
+                        @include second-button;
+                    }
+                }
+            }
+        }
+    }  
+}

@@ -99,6 +99,64 @@ header {
     }
 }
 */
+header {
+  background-color: #FFFFFF;
+  filter: drop-shadow(0px 4px 4px #22343D);
+}
+header .header {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 0;
+  align-items: center;
+}
+header .header .bg-logo {
+  display: flex;
+  align-items: center;
+}
+header .header .bg-logo span {
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 28px;
+  padding-left: 15px;
+  color: #173A56;
+  text-shadow: 0px 4px 4px #22343D;
+}
+header .header .nav ul {
+  display: flex;
+}
+header .header .nav ul li {
+  padding-left: 15px;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: normal;
+}
+header .header .nav ul li a {
+  text-decoration: none;
+  color: #22343D;
+}
+header .header .nav ul li .active {
+  font-weight: bold;
+}
+header .header .nav ul li .primary-button {
+  text-decoration: none;
+  background: #02897A;
+  color: #FFFFFF;
+  padding: 15px;
+  border-radius: 4px;
+}
+header .header .nav ul li .second-button {
+  text-decoration: none;
+  background: #FFFFFF;
+  color: #1F2E35;
+  padding: 15px;
+  border: 1px solid #BCD0E5;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
 .section-one {
   display: flex;
   justify-content: space-between;
