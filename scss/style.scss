@@ -1,5 +1,5 @@
 // Framework
-//@import 'framework/bootstrap.scss';
+@import 'framework/bootstrap.scss';
 
 // Base
 @import 'base/reset';
@@ -7,8 +7,10 @@
 @import 'base/mixins';
 
 // Global
-@import 'global/container';
 
 // Pages
 @import 'pages/header';
-@import 'pages/home';
+@import 'pages/home/section-one';
+@import 'pages/home/section-two';
+@import 'pages/home/section-three';
+@import 'pages/footer';

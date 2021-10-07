@@ -1,0 +1,16 @@
+footer {
+    margin-top: 105px;
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        .nav-footer-1 {
+            align-items: center;
+            span {
+                @include tipo-1(30);
+            }
+            ul {
+                display: flex;
+            }
+        }
+    }
+}

@@ -1,0 +1,24 @@
+.section-two {
+    margin-top: 105px;
+    h2 {
+        @include tipo-1(32);
+    }
+    .section-two-cards {
+        margin-top: 60px;
+        display: flex;
+        justify-content: space-around;
+        .section-two-card {
+            h3 {
+                @include tipo-1(22);
+            }
+        }
+    }
+    .section-two-button {
+        margin-top: 60px;
+        text-align: center;
+        a {
+            text-decoration: none;
+            @include primary-button;
+        }
+    }
+}

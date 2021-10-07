@@ -5,22 +5,46 @@
 @mixin tipo-1($size) {
     font-family: $font-1;
     @if $size == 16 {
-      font-size: 16px;
-      line-height: 28px;
+      font-size: 1em;
+      line-height: 1.75em;
       font-weight: normal;
     }
-    @else if $size == 30 {
-        font-size: 30px;
+    @else if $size == 18 {
+        font-size: 1.125em;
+        font-style: normal;
+        font-weight: normal;
+        line-height: 1.75em;
+        color: $color-3;
+    }
+    @else if $size == 22 {
+        font-size: 1.375em;
+        font-style: normal;
         font-weight: bold;
-        line-height: 28px;
+        line-height: 2.0625em;
+        color: $color-3;
+    }
+    @else if $size == 30 {
+        font-size: 1.875em;
+        font-weight: bold;
+        line-height: 1.75em;
         padding-left: 15px;
         color: $color-logo;
         text-shadow:(0px 4px 4px $bg-dark);
     }
-    @else if $size == 40 {
-        font-size: 40px;
-        line-height: 60px;
+    @else if $size == 32 {
+        font-size: 2em;
+        font-style: normal;
         font-weight: bold;
+        line-height: 3em;
+        text-align: center;
+        color: $color-logo;
+    }
+    @else if $size == 40 {
+        font-size: 2.5em;
+        line-height: 3.75em;
+        font-family: normal;
+        font-weight: bold;
+        color: $color-3;
     }
 }
 

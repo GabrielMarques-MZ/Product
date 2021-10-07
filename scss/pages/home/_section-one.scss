@@ -1,0 +1,41 @@
+.section-one {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 105px;
+    .section-one-text {
+        width: 518px;
+        height: 331px;
+        margin-top: 115px;
+        h1 {
+            @include tipo-1(40);
+            
+        }
+        p {
+            margin-top: 18px;
+            @include tipo-1(18);
+        }
+        .section-one-button {
+            margin-top: 60px;
+            ul {
+                display: flex;
+                li {
+                    padding-right: 15px;
+                    align-items: center;
+                    .primary-button {
+                        text-decoration: none;
+                        @include primary-button;
+                    }
+                    a {
+                        color: $button-green;
+                        align-items: center;
+                    }
+                }
+            }
+        }
+    }
+    .section-one-img {
+        img {
+            width: 100%;
+        }
+    }
+}
